@@ -1,0 +1,20 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+**/venv/
+**/__pycache__/
+*.py[cod]
+
+# Vector database
+**/chroma_db/
+
+# Node.js
+**/node_modules/
+**/dist/
+
+# Editor and operating system
+.vscode/
+.DS_Store
